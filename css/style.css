@@ -19,24 +19,28 @@ header {
     height: 75px;
     box-sizing: border-box;
     border: 1px solid black;
+    line-height: 70px;
 }
 aside {
     max-width: 100%;
     box-sizing: border-box;
     border: 1px solid black;
     height: 150px;
+    line-height: 9;
 }
 
 #twoAcross div{
     display: grid;
     border: 1px solid black;
     height: 125px;
+    line-height: 125px;
 }
 
 #four {
     display: grid;
     grid-template: 50% 50%/50% 50%;
     border: 1px solid black;
+    line-height: 250px;
 }
 #four div {
     border: 1px solid black;
@@ -51,7 +55,6 @@ footer {
     flex-direction: column;
     border: 1px solid black;
     height: 80px;
-    
     line-height: 80px;
 }
 
